@@ -130,21 +130,16 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#Array">Array </a></li>
 <li class="toc-entry toc-h3"><a href="#Defining-Arrays-and-Basic-Array-Operations">Defining Arrays and Basic Array Operations </a></li>
 <li class="toc-entry toc-h3"><a href="#Array-slicing:">Array slicing: </a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#Slicing-can-also-include-ellipsis-(…)-to-make-a-selection-tuple-of-the-same-length-as-the-dimension-of-an-array.">Slicing can also include ellipsis (…) to make a selection tuple of the same length as the dimension of an array. </a></li>
-<li class="toc-entry toc-h1"><a href="#If-ellipsis-is-used-at-the-row-position,-it-will-return-an-ndarray-comprising-of-items-in-rows.">If ellipsis is used at the row position, it will return an ndarray comprising of items in rows. </a>
-<ul>
 <li class="toc-entry toc-h3"><a href="#Array-manipulation">Array manipulation </a></li>
 <li class="toc-entry toc-h3"><a href="#Arithmatic,-Statistical-and-Linear-algebraic-functions-in-Numpy">Arithmatic, Statistical and Linear algebraic functions in Numpy </a>
 <ul>
 <li class="toc-entry toc-h4"><a href="#Arithmatic-Operations">Arithmatic Operations </a></li>
+<li class="toc-entry toc-h4"><a href="#Statistical-Functions-in-Numpy">Statistical Functions in Numpy </a></li>
+<li class="toc-entry toc-h4"><a href="#Algebraic-Functions-in-Numpy">Algebraic Functions in Numpy </a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h3"><a href="#Statistical-Functions-in-Numpy">Statistical Functions in Numpy </a></li>
-<li class="toc-entry toc-h3"><a href="#Algebraic-Functions-in-Numpy">Algebraic Functions in Numpy </a></li>
+</ul>
+</li>
 <li class="toc-entry toc-h2"><a href="#PANDAS">PANDAS </a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#Series">Series </a></li>
@@ -153,12 +148,6 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#Data-Types">Data Types </a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li class="toc-entry toc-h1"><a href="#The-missing-values-exist-in-the-form-of-‘nan','??','???'">The missing values exist in the form of ‘nan&#39;,&#39;??&#39;,&#39;???&#39; </a></li>
-<li class="toc-entry toc-h1"><a href="#Python,-by-default-replace-blank-values-with-‘nan'">Python, by default replace blank values with ‘nan&#39; </a>
-<ul>
-<li class="toc-entry toc-h4"><a href="#convert-'??'-and-'???'-values-to-NaN">convert &#39;??&#39; and &#39;???&#39; values to NaN </a></li>
 </ul>
 </li>
 </ul><!--
@@ -1373,12 +1362,9 @@ Now we will slice the array from the index a[1:]
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Slicing-can-also-include-ellipsis-(…)-to-make-a-selection-tuple-of-the-same-length-as-the-dimension-of-an-array.">
-<a class="anchor" href="#Slicing-can-also-include-ellipsis-(%E2%80%A6)-to-make-a-selection-tuple-of-the-same-length-as-the-dimension-of-an-array." aria-hidden="true"><span class="octicon octicon-link"></span></a>Slicing can also include ellipsis (…) to make a selection tuple of the same length as the dimension of an array.<a class="anchor-link" href="#Slicing-can-also-include-ellipsis-(%E2%80%A6)-to-make-a-selection-tuple-of-the-same-length-as-the-dimension-of-an-array."> </a>
-</h1>
-<h1 id="If-ellipsis-is-used-at-the-row-position,-it-will-return-an-ndarray-comprising-of-items-in-rows.">
-<a class="anchor" href="#If-ellipsis-is-used-at-the-row-position,-it-will-return-an-ndarray-comprising-of-items-in-rows." aria-hidden="true"><span class="octicon octicon-link"></span></a>If ellipsis is used at the row position, it will return an ndarray comprising of items in rows.<a class="anchor-link" href="#If-ellipsis-is-used-at-the-row-position,-it-will-return-an-ndarray-comprising-of-items-in-rows."> </a>
-</h1>
+<p>Slicing can also include ellipsis (…) to make a selection tuple of the same length as the dimension of an array. 
+If ellipsis is used at the row position, it will return an ndarray comprising of items in rows.</p>
+
 </div>
 </div>
 </div>
@@ -2013,9 +1999,9 @@ Joining the two arrays along axis 1:
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Statistical-Functions-in-Numpy">
+<h4 id="Statistical-Functions-in-Numpy">
 <a class="anchor" href="#Statistical-Functions-in-Numpy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Statistical Functions in Numpy<a class="anchor-link" href="#Statistical-Functions-in-Numpy"> </a>
-</h3>
+</h4>
 <p>NumPy has quite a few useful statistical functions for finding minimum, maximum, mean,median from the given elements in the array.</p>
 
 </div>
@@ -2065,9 +2051,9 @@ Joining the two arrays along axis 1:
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Algebraic-Functions-in-Numpy">
+<h4 id="Algebraic-Functions-in-Numpy">
 <a class="anchor" href="#Algebraic-Functions-in-Numpy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Algebraic Functions in Numpy<a class="anchor-link" href="#Algebraic-Functions-in-Numpy"> </a>
-</h3>
+</h4>
 </div>
 </div>
 </div>
@@ -4136,15 +4122,10 @@ Name: Species, dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-missing-values-exist-in-the-form-of-‘nan','??','???'">
-<a class="anchor" href="#The-missing-values-exist-in-the-form-of-%E2%80%98nan','??','???'" aria-hidden="true"><span class="octicon octicon-link"></span></a>The missing values exist in the form of ‘nan','??','???'<a class="anchor-link" href="#The-missing-values-exist-in-the-form-of-%E2%80%98nan','??','???'"> </a>
-</h1>
-<h1 id="Python,-by-default-replace-blank-values-with-‘nan'">
-<a class="anchor" href="#Python,-by-default-replace-blank-values-with-%E2%80%98nan'" aria-hidden="true"><span class="octicon octicon-link"></span></a>Python, by default replace blank values with ‘nan'<a class="anchor-link" href="#Python,-by-default-replace-blank-values-with-%E2%80%98nan'"> </a>
-</h1>
-<h4 id="convert-'??'-and-'???'-values-to-NaN">
-<a class="anchor" href="#convert-'??'-and-'???'-values-to-NaN" aria-hidden="true"><span class="octicon octicon-link"></span></a>convert '??' and '???' values to NaN<a class="anchor-link" href="#convert-'??'-and-'???'-values-to-NaN"> </a>
-</h4>
+<p>The missing values exist in the form of ‘nan','??','???'</p>
+<p>Python, by default replace blank values with ‘nan'
+convert '??' and '???' values to NaN</p>
+
 </div>
 </div>
 </div>
